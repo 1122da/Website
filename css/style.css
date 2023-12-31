@@ -1,0 +1,42 @@
+body{
+    background-color: #1A1A1A;;
+}
+#menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: #606060;
+    padding-right:15px;
+    display: block;
+    text-decoration: none;
+}
+.line{
+   width: 48px;
+    height: 1px;
+    background-color:#FF9142;
+    margin-top: 18px;
+}
+.client{
+    color: #606060;
+}
+.pargraph{
+    color: #949494;
+}
+.info{
+    background-color: black;
+}
+#infoheading{
+    color: #FF9142;
+}
+.infoline{
+    background-color: #949494;
+    width: 1125px;
+    height: 1px;
+}
+
