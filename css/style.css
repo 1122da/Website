@@ -1,42 +1,70 @@
-body{
-    background-color: #1A1A1A;;
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900@display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-#menu{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #ff9142;
+  --text-gray: #a8a8a8;
+  --bg-black: #1a1a1a;
+  /* Font Family */
+  --primary-font: "Rubik", sans-serif;
+}
+body {
+  background-color: var(--bg-black);
+  font-family: var(--primary-font);
+  width: 100%;
+}
+/* navbar */
+.header_wrapper .navbar {
+  padding: 0.9375rem 0;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.header_wrapper .navbar-brand img {
+  max-width: 10rem;
+  height: auto;
+}
+#menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-#menu li{
-    display: inline-block;
+#menu li {
+  display: inline-block;
 }
-#menu li a{
-    color: #606060;
-    padding-right:15px;
-    display: block;
-    text-decoration: none;
+#menu li a {
+  color: #606060;
+  padding-right: 15px;
+  display: block;
+  text-decoration: none;
 }
-.line{
-   width: 48px;
-    height: 1px;
-    background-color:#FF9142;
-    margin-top: 18px;
+.line {
+  width: 48px;
+  height: 1px;
+  background-color: #ff9142;
+  margin-top: 18px;
 }
-.client{
-    color: #606060;
+.client {
+  color: #606060;
 }
-.pargraph{
-    color: #949494;
+.pargraph {
+  color: #949494;
 }
-.info{
-    background-color: black;
+.info {
+  background-color: black;
 }
-#infoheading{
-    color: #FF9142;
+#infoheading {
+  color: #ff9142;
 }
-.infoline{
-    background-color: #949494;
-    width: 1125px;
-    height: 1px;
+.infoline {
+  background-color: #949494;
+  width: 1125px;
+  height: 1px;
 }
-
