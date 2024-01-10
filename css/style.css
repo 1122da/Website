@@ -98,6 +98,27 @@ body {
 }
 .primary-btn {
 }
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+.aboutme_wrapper {
+  padding-top: 6.876rem;
+}
+.aboutme_wrapper .aboutme-content {
+  vertical-align: middle;
+  align-self: center;
+}
+.grayText {
+  font-size: 18px;
+  line-height: 27.81px;
+  font-weight: 400;
+  font-family: var(--primary-font);
+  color: var(--text-gray);
+  width: 60%;
+}
 #menu {
   list-style: none;
   padding: 0;
